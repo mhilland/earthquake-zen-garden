@@ -15,23 +15,23 @@ const Profile = () => {
         <table className="table-auto max-w-xs">
           <tbody>
             <tr>
-              <td className="whitespace-nowrap pr-6">First name</td>
+              <td className="whitespace-nowrap pr-6 align-top">First name</td>
               <td className="text-gray-dark">{firstName}</td>
             </tr>
             <tr>
-              <td className="whitespace-nowrap pr-6">Last name</td>
+              <td className="whitespace-nowrap pr-6 align-top">Last name</td>
               <td className="text-gray-dark">{lastName}</td>
             </tr>
             <tr>
-              <td className="whitespace-nowrap pr-6">Phone</td>
+              <td className="whitespace-nowrap pr-6 align-top">Phone</td>
               <td className="text-gray-dark">{phone}</td>
             </tr>
             <tr>
-              <td className="whitespace-nowrap pr-6">Email</td>
+              <td className="whitespace-nowrap pr-6 align-top">Email</td>
               <td className="text-gray-dark">{email}</td>
             </tr>
             <tr>
-              <td className="whitespace-nowrap pr-6">Bio</td>
+              <td className="whitespace-nowrap pr-6 align-top">Bio</td>
               <td className="text-gray-dark">{bio}</td>
             </tr>
           </tbody>

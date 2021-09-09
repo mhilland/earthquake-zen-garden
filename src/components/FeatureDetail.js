@@ -15,27 +15,27 @@ const FeatureDetail = () => {
       <table className="table-auto">
         <tbody>
           <tr>
-            <td className="whitespace-nowrap pr-6">Title</td>
+            <td className="whitespace-nowrap pr-6 align-top">Title</td>
             <td className="text-gray-dark">{title}</td>
           </tr>
           <tr>
-            <td className="whitespace-nowrap pr-6">Magnitude</td>
+            <td className="whitespace-nowrap pr-6 align-top">Magnitude</td>
             <td className="text-gray-dark">{mag}</td>
           </tr>
           <tr>
-            <td className="whitespace-nowrap pr-6">Time</td>
+            <td className="whitespace-nowrap pr-6 align-top">Time</td>
             <td className="text-gray-dark">{format(time, 'MMM d, yyyy, HH:mm a')}</td>
           </tr>
           <tr>
-            <td className="whitespace-nowrap pr-6">Status</td>
+            <td className="whitespace-nowrap pr-6 align-top">Status</td>
             <td className="text-gray-dark">{status}</td>
           </tr>
           <tr>
-            <td className="whitespace-nowrap pr-6">Tsunami</td>
+            <td className="whitespace-nowrap pr-6 align-top">Tsunami</td>
             <td className="text-gray-dark">{tsunami}</td>
           </tr>
           <tr>
-            <td className="whitespace-nowrap pr-6">Type</td>
+            <td className="whitespace-nowrap pr-6 align-top">Type</td>
             <td className="text-gray-dark">{type}</td>
           </tr>
         </tbody>

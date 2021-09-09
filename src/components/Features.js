@@ -59,13 +59,13 @@ const Features = ({ features }) => {
         <tbody>
         {items.map(feature =>
           <tr key={feature.id}>
-            <td>
+            <td className="whitespace-nowrap pr-6 align-top">
               <Link to={`/feature/${feature.id}`}>
                 {feature.properties.title}
               </Link>
             </td>
-            <td className="text-center">{feature.properties.mag}</td>
-            <td className="text-center">{format(feature.properties.time, 'MMM d, yyyy, HH:mm a')}</td>
+            <td className="text-center whitespace-nowrap px-6 align-top">{feature.properties.mag}</td>
+            <td className="text-center whitespace-nowrap px-6 align-top">{format(feature.properties.time, 'MMM d, yyyy, HH:mm a')}</td>
           </tr>
         )}
         </tbody>
