@@ -46,13 +46,13 @@ const Features = ({ features }) => {
         <thead>
           <tr>
             <th>
-              <a href="#" onClick={() => requestSort('title')}>Title</a>
+              <span class="cursor-pointer" onClick={() => requestSort('title')}>Title</span>
             </th>
             <th>
-              <a href="#" onClick={() => requestSort('mag')}>Magnitude</a>
+              <span class="cursor-pointer" onClick={() => requestSort('mag')}>Magnitude</span>
             </th>
             <th>
-              <a href="#" onClick={() => requestSort('time')}>Time</a>
+              <span class="cursor-pointer" onClick={() => requestSort('time')}>Time</span>
             </th>
           </tr>
         </thead>
